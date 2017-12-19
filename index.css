@@ -1,6 +1,32 @@
-h1{
-    color: red;
+.daohang {
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+
 }
-span{
+
+.zhongkuang {
+    height: 80px;
+    text-align: center;
+
+}
+
+.D2 {
     color: aqua;
 }
+
+.zhutitu {
+    text-align: center;
+    width: 1024px;
+    height:800px;
+}
+
+.ztuwz {
+   position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+
+

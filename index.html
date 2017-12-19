@@ -1,32 +1,69 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-    <title>旅行首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>定制旅行</title>
     <meta name="author" content="王园辉" />
     <meta charset="utf-8" />
-    <link rel="icon" href="imgs/%E9%9B%AA%E8%8A%B1.png" />
-
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel=s tylesheet href="xiawu.css" />
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
+    .D1 {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 
-    [id="anniu"]+div{
-        color: aqua;
+    .D3 {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 </style>
 
-<body style="margin: 0">
-        <img  src="imgs/logo.png" width="150px" height="44px" style="position: relative;left: 270px;top: 10px"/>
-        <div style="text-align: center ;margin-bottom: 20px;margin-top: -18px;font-size: 18px" >首页 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp定制旅行&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 定制师&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 路书&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 案例故事&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 目的地&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 主题游&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 婚礼婚拍&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 关于我们</div>
-        <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.jpg" />
-        <div style="text-align: center;font-size: 36px;position: relative;top: -570px;color: white;font-weight: 550">漫步之旅，全新定义海外自由行</div>
-        <br>
-        <div style="text-align: center;font-size: 24px;position: relative;top: -570px;color: white">我们是海外自由行定制专家，</div>
-        <div style="text-align: center;font-size: 24px;position: relative;top: -570px;color: white">自2012年以来，始终专注做好一件事；</div>
-        <div style="text-align: center;font-size: 24px;position: relative;top: -570px;color: white">为您私人定制一次难忘的出国旅行。</div>
-        <br>
-    <div id="anniu"></div>
-        <div style="width: 200px ;height: 50px;border: 2px solid white;position: relative;top: -470px;left: 830px;border-radius: 40px"></div>
-        <div style="font-size: 24px;position: relative;top: -513px;left: 885px;color: white;">立即定制</div>
-
+<body>
+    <div>
+        <div class="row">
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-10">
+                <div class="col-md-3">
+                    <img src="imgs/logo.png" width="155px" height="45px">
+                </div>
+                <div class="col-md-6 zhongkuang" style="padding: 0px">
+                    <div class="daohang">
+                        <span class="D1 D2">首页</span>
+                        <span class="D1">定制旅行</span>
+                        <span class="D1">定制师</span>
+                        <span class="D1">路书</span>
+                        <span class="D1">案例故事</span>
+                        <span class="D1">目的地</span>
+                        <span class="D1">主题游</span>
+                        <span class="D1">婚礼婚拍</span>
+                        <span class="D1">关于我们</span>
+                    </div>
+                </div>
+                <div class="col-md-3">.col-md-1</div>
+            </div>
+            <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row zhutitu">
+            <div>
+                <div> <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.jpg"></div>
+            </div>
+            <div class="ztuwz">
+                <span class="D3">主题游</span>
+                <span class="D3">婚礼婚拍</span>
+                <span class="D3">关于我们</span>
+                <span class="D3">关于我们</span>
+            </div>
+        </div>
 </body>
+
+</html>
