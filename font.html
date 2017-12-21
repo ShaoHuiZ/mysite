@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>定制旅行</title>
+    <meta name="author" content="王园辉" />
+    <meta charset="utf-8" />
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+
+<body style="padding: :16px">
+
+    <img id="shaYuBtn" src="imgs/shaYu.png" />
+
+</body>
+<script>
+    $('#shaYuBtn').hover(function() {
+        $('#shaYuBtn').attr('src', 'imgs/shaYu_hover.png');
+
+    }, function() {
+        $('#shaYuBtn').attr('src', 'imgs/shaYu.png');
+    });
+    $('#shaYuBtn').mousedown(function() {
+        $('#shaYuBtn').attr('src', 'imgs/shaYu_active.png');
+    });
+</script>
+
+
+</html>

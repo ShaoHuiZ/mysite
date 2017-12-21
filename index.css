@@ -1,32 +1,72 @@
-.daohang {
-    font-size: 18px;
+#logo {
+    width: 150px;
+}
+
+
+#bs-example-navbar-collapse-1 {
+    background: none;
+    text-align: center;
+    height: 72px;
+}
+
+
+.barsty {
+    height: 72px;
+}
+
+
+.container-fluid {
+    height: 72px;
+    background: none;
+}
+
+
+.collapse {
+    display: inline-block;
+}
+
+
+div {
+    display: block;
+}
+
+
+body {
+    display: inline-block;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#daohanglan > li {
+    background: none;
+    height: 72px;
+    width: 72px;
+    margin: 0px 30px 0px 30px;
+}
+
+
+#wenzibeijing > a {
+    margin: 0px;
+    padding: 0px;
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
-
-}
-
-.zhongkuang {
-    height: 80px;
-    text-align: center;
-
-}
-
-.D2 {
-    color: aqua;
-}
-
-.zhutitu {
-    text-align: center;
-    width: 1024px;
-    height:800px;
-}
-
-.ztuwz {
-   position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
+#anniu > a {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    border-radius: 8px;
+    color: white;
+    height: 30px;
+    padding: 5px;
+}

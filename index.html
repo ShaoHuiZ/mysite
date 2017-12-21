@@ -8,61 +8,123 @@
     <meta charset="utf-8" />
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    <link rel=s tylesheet href="xiawu.css" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<style>
-    .D1 {
-        margin-left: 12px;
-        margin-right: 12px;
-    }
-
-    .D3 {
-        display: block;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-</style>
 
 <body>
-    <div>
-        <div class="row">
-            <div class="col-md-1">.col-md-1</div>
-            <div class="col-md-10">
-                <div class="col-md-3">
-                    <img src="imgs/logo.png" width="155px" height="45px">
-                </div>
-                <div class="col-md-6 zhongkuang" style="padding: 0px">
-                    <div class="daohang">
-                        <span class="D1 D2">首页</span>
-                        <span class="D1">定制旅行</span>
-                        <span class="D1">定制师</span>
-                        <span class="D1">路书</span>
-                        <span class="D1">案例故事</span>
-                        <span class="D1">目的地</span>
-                        <span class="D1">主题游</span>
-                        <span class="D1">婚礼婚拍</span>
-                        <span class="D1">关于我们</span>
+
+    <div class="row">
+        <!--    导航栏-->
+        <div class="col-md-1"></div>
+        <div class="col-md-10" style="height: 72px">
+
+            <nav class="navbar navbar-default" style="background: none;border: none">
+                <div class="container-fluid" style="padding: 0px">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                        <a class="navbar-brand" href="#">
+        <img id="logo" src="imgs/logo.png">
+        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul id="daohanglan" class="nav navbar-nav" style="margin: 0px;padding: 0px;">
+                            <li id="wenzibeijing"><a href="#" style="color: aqua">首页</a></li>
+                            <li id="wenzibeijing"><a href="#">定制旅行</a></li>
+                            <li id="wenzibeijing"><a href="#">定制师</a></li>
+                            <li id="wenzibeijing"><a href="#">路书</a></li>
+                            <li id="wenzibeijing"><a href="#">案例故事</a></li>
+                            <li id="wenzibeijing"><a href="#">目的地</a></li>
+                            <li id="wenzibeijing"><a href="#">主题游</a></li>
+                            <li id="wenzibeijing"><a href="#">婚礼婚拍</a></li>
+                            <li id="wenzibeijing"><a href="#">关于我们</a></li>
+                            <li id="anniu"><a href="#">免费咨询</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-3">.col-md-1</div>
-            </div>
-            <div class="col-md-1">.col-md-1</div>
+            </nav>
+
         </div>
-        <div class="row zhutitu">
-            <div>
-                <div> <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.jpg"></div>
-            </div>
-            <div class="ztuwz">
-                <span class="D3">主题游</span>
-                <span class="D3">婚礼婚拍</span>
-                <span class="D3">关于我们</span>
-                <span class="D3">关于我们</span>
-            </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div id="zhutitu" class="row">
+        <!--    主题图-->
+        <div class="col-md-12">
+            <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.png">
         </div>
-        < /body>
-            < /html>
+    </div>
+
+    <div class="row">
+        <!--    定制旅行-->
+        <div class="col-md-12">
+            <img src="imgs/2%E5%8F%B7.png">
+        </div>
+    </div>
+
+    <div class="row">
+        <!--    了解书路-->
+        <div class="col-md-12">
+            <img src="imgs/%E4%B8%89%E5%8F%B7.png">
+        </div>
+    </div>
+
+    <div id="waibianju" class="row">
+        <!--    案例故事-->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+
+            <div class="col-md-3">
+
+                <img src="imgs/41.jpg">
+
+            </div>
+            <div class="col-md-3">
+
+                <img src="imgs/42.jpg">
+
+            </div>
+            <div class="col-md-3">
+
+                <img src="imgs/43.jpg">
+
+            </div>
+            <div class="col-md-3">
+
+                <img src="imgs/44.jpg">
+
+            </div>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <!--    文本定制-->
+        <div class="col-md-12">
+
+            <img src="imgs/5.png">
+
+        </div>
+    </div>
+
+    <div class="row">
+        <!--    关于我们-->
+        <div class="col-md-12">1111111</div>
+    </div>
+
+    <div class="row">
+        <!--    页脚-->
+        <div class="col-md-12">.col-md-1</div>
+    </div>
+
+</body>
+
+</html>
