@@ -12,72 +12,124 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </head>
+
 
 <body>
 
-    <div class="row">
-        <!--    导航栏-->
+    <div class="row" style="width: 100%;margin:0;height: 72px;">
+        <!--            导航栏-->
         <div class="col-md-1"></div>
-        <div class="col-md-10" style="height: 72px">
+        <div class="col-md-10" style="height: 72px;padding: 0;">
+            <div id="danhangtiao" class="row" style="width: 100%;margin:0;height: 72px;">
+                <div id="daohanglan">
+                    <span id="wenzibeijing"><a href="#" style="color:aqua;">首页</a></span>
+                    <span id="wenzibeijing"><a href="#">定制旅行</a></span>
+                    <span id="wenzibeijing"><a href="#">定制师</a></span>
+                    <span id="wenzibeijing"><a href="#">路书</a></span>
+                    <span id="wenzibeijing"><a href="#">案例故事</a></span>
+                    <span id="wenzibeijing"><a href="#">目的地</a></span>
+                    <span id="wenzibeijing"><a href="#">主题游</a></span>
+                    <span id="wenzibeijing"><a href="#">婚礼婚拍</a></span>
+                    <span id="wenzibeijing"><a href="#">关于我们</a></span>
+                    <span id="anniu"><a href="#">免费咨询</a></span>
+                </div>
+            </div>
+            <!--                                <img id="logo" src="imgs/logo.png" style="width: 150px;">-->
 
-            <nav class="navbar navbar-default" style="background: none;border: none">
-                <div class="container-fluid" style="padding: 0px">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                        <a class="navbar-brand" href="#">
-        <img id="logo" src="imgs/logo.png">
-        </a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul id="daohanglan" class="nav navbar-nav" style="margin: 0px;padding: 0px;">
-                            <li id="wenzibeijing"><a href="#" style="color: aqua">首页</a></li>
-                            <li id="wenzibeijing"><a href="#">定制旅行</a></li>
-                            <li id="wenzibeijing"><a href="#">定制师</a></li>
-                            <li id="wenzibeijing"><a href="#">路书</a></li>
-                            <li id="wenzibeijing"><a href="#">案例故事</a></li>
-                            <li id="wenzibeijing"><a href="#">目的地</a></li>
-                            <li id="wenzibeijing"><a href="#">主题游</a></li>
-                            <li id="wenzibeijing"><a href="#">婚礼婚拍</a></li>
-                            <li id="wenzibeijing"><a href="#">关于我们</a></li>
-                            <li id="anniu"><a href="#">免费咨询</a></li>
-                        </ul>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div id="zhutitu" class="row" style="width: 100%;margin:0">
+        <!--            主题图-->
+        <div class="col-md-12" style="padding: 0;">
+            <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.png" style="width: 100%;">
+            <div id="juzhong" class="row" style="width: 100%;margin:0">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div id="zhutiwenzi" class="row" style="width: 100%;margin:0;position: absolute;top:50%">
+                        <br>
+                        <span id="dazi">漫步之旅，全新定义海外自由行</span>
+                        <br>
+                        <span id="dazi1">我们是海外自由行定制专家，</span>
+                        <br>
+                        <span id="dazi1">自2012年以来始终专注做好一件事:</span>
+                        <br>
+                        <span id="dazi1">为您私人定制一次难忘的出国旅行。</span>
+                        <br>
+                        <div id="anniu2">立即定制</div>
+                        <br>
                     </div>
                 </div>
-            </nav>
-
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-
-    <div id="zhutitu" class="row">
-        <!--    主题图-->
-        <div class="col-md-12">
-            <img src="imgs/%E4%B8%BB%E9%A2%98%E5%9B%BE.png">
+                <div class="col-md-3"></div>
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <!--    定制旅行-->
-        <div class="col-md-12">
-            <img src="imgs/2%E5%8F%B7.png">
+    <div class="row" style="width: 100%;margin:0">
+        <!--            定制旅行-->
+        <div class="col-md-12" style="padding: 0;">
+            <img src="imgs/2%E5%8F%B7.png" style="width: 100%">
+            <div id="juzhong" class="row" style="width: 100%;margin:0">
+                <div class="col-md-5">
+                    <div id="lxwz" class="row" style="width: 100%;margin:0;position: absolute;top:50%;">
+                        <span id="dazidzlxc">定制旅行</span>
+                        <br>
+                        <span id="dazidzlx">让出国旅行更简单</span>
+                        <br>
+                        <br>
+                        <span id="dazi2">跟团？不自由；</span>
+                        <br>
+                        <span id="dazi2">自由行？太麻烦。</span>
+                        <br>
+                        <span id="dazi2">有没有一种省心、自由、又不贵的旅行方式？</span>
+                        <br>
+                        <span id="dazi2">这正是我们能为你做的。</span>
+                        <br>
+                        <br>
+                        <div id="dzlx">了解定制旅行</div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <!--    了解书路-->
-        <div class="col-md-12">
-            <img src="imgs/%E4%B8%89%E5%8F%B7.png">
+    <div class="row" style="width: 100%;margin:0">
+        <!--            了解书路-->
+        <div class="col-md-12" style="padding: 0;">
+            <img src="imgs/%E4%B8%89%E5%8F%B7.png" style="width: 100%">
+            <div id="juzhong" class="row" style="width: 100%;margin:0">
+                <div class="col-md-7"></div>
+                <div class="col-md-5">
+                    <div id="lxwz1" class="row" style="width: 100%;margin:0;position: absolute;top:50%;">
+
+                        <span id="dazidzlxc">路书</span>
+                        <span id="dazidzlx">是你的专属导游</span>
+                        <br>
+                        <span id="dazidzlx">也是独特的旅行记忆</span>
+                        <br>
+                        <br>
+                        <span id="dazi2">在漫步之旅，有多少位顾客，就有多少本路书</span>
+                        <br>
+                        <span id="dazi2">翻开属于你的那一本，一定会被他的细致程度吓一跳。</span>
+                        <br>
+                        <span id="dazi2">因为它的每一页都因你不同</span>
+                        <br>
+                        <span id="dazi2">你的兴趣、你的喜好、你的要求、路书都记得</span>
+                        <br>
+                        <div id="dzlx">了解路书</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div id="waibianju" class="row">
-        <!--    案例故事-->
+    <div id="waibianju" class="row" style="width: 100%;margin:0">
+        <!--            案例故事-->
         <div class="col-md-2"></div>
         <div class="col-md-8">
 
@@ -106,23 +158,23 @@
         <div class="col-md-2"></div>
     </div>
 
-    <div class="row">
-        <!--    文本定制-->
-        <div class="col-md-12">
+    <div class="row" style="width: 100%;margin:0">
+        <!--            文本定制-->
+        <div class="col-md-12" style="padding: 0;">
 
-            <img src="imgs/5.png">
+            <img src="imgs/5.png" style="width: 100%">
 
         </div>
     </div>
 
-    <div class="row">
-        <!--    关于我们-->
-        <div class="col-md-12">1111111</div>
+    <div class="row" style="width: 100%;margin:0">
+        <!--            关于我们-->
+        <div class="col-md-12" style="padding: 0;">1111111</div>
     </div>
 
-    <div class="row">
-        <!--    页脚-->
-        <div class="col-md-12">.col-md-1</div>
+    <div class="row" style="width: 100%;margin:0">
+        页脚
+        <div class="col-md-12" style="padding: 0;">.col-md-1</div>
     </div>
 
 </body>
