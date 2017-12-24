@@ -1,6 +1,6 @@
 #logo {
     width: 150px;
-    transform: translate(70%,-140%);
+    transform: translate(70%, -140%);
     margin-right: 10px;
 }
 
@@ -42,8 +42,9 @@ div {
     height: 30px;
     padding: 5px;
 }
+
 #wenzibeijing > a {
-text-decoration: none;
+    text-decoration: none;
     color: #6a6a6a;
 }
 
@@ -60,8 +61,8 @@ text-decoration: none;
     display: inline-block;
     width: 100%;
     z-index: 5;
-    position:absolute;
-    transform: translate(-50%,-135%);
+    position: absolute;
+    transform: translate(-50%, -135%);
 
 
 }
@@ -72,8 +73,8 @@ text-decoration: none;
     display: inline-block;
     width: 100%;
     z-index: 5;
-    position:absolute;
-    transform: translate(-50%,-150%);
+    position: absolute;
+    transform: translate(-50%, -150%);
 
 
 }
@@ -85,15 +86,32 @@ text-decoration: none;
     display: inline-block;
     width: 100%;
     z-index: 5;
-    position:absolute;
-    transform: translate(-50%,-140%);
+    position: absolute;
+    transform: translate(-50%, -140%);
 
 
 }
 
+
+#lxwz2 {
+
+    display: inline-block;
+
+
+}
+
+
 #juzhong {
     width: 100%;
     text-align: center;
+}
+
+
+#juzhong1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
 }
 
 #dazi {
@@ -101,7 +119,7 @@ text-decoration: none;
     font-weight: 500;
     color: white;
     margin-bottom: 50px;
-    z-index: 5 ;
+    z-index: 5;
 }
 
 
@@ -121,6 +139,15 @@ text-decoration: none;
 }
 
 
+#dazidzlxc1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: -30px;
+    margin-bottom: -30px;
+}
+
+
 
 [id=dazi1] {
 
@@ -134,7 +161,16 @@ text-decoration: none;
 [id=dazi2] {
 
     font-size: 18px;
-    color:rgba(59, 59, 59, 0.76);
+    color: rgba(59, 59, 59, 0.76);
+    font-weight: 100;
+
+}
+
+
+[id=dazi3] {
+
+    font-size: 18px;
+    color: white;
     font-weight: 100;
 
 }
@@ -167,10 +203,34 @@ text-decoration: none;
 }
 
 
+#dzlx1 {
+    color: white;
+    border: 2px solid white;
+    height: auto;
+    width: 200px;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 0px;
+}
+
+#dzlx3 {
+    color: white;
+    border: 2px solid rgb(78, 193, 253);
+    height: auto;
+    width: 200px;
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 0px;
+    background: rgb(78, 193, 253);
+    text-align: center;
+    display: inline-block;
+}
 
 
-#daohanglan>span {
-   position: relative;
+
+#daohanglan > span {
+    position: relative;
     top: 50%;
 }
 
@@ -182,7 +242,7 @@ text-decoration: none;
 
 #daohanglan {
     display: inline-block;
-    transform: translate(0%,140%);
+    transform: translate(0%, 140%);
 }
 
 #wenzibeijing {
@@ -190,18 +250,61 @@ text-decoration: none;
     margin: 30px;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
-a:visited{
+
+a:visited {
     text-decoration: none;
 }
-a:active{
+
+a:active {
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
+
 #anniu > a {
     text-decoration: none;
+}
+
+
+
+#dazi4 {
+    font-size: 24px;
+    color: white
+}
+
+
+
+#guanyuwomen {
+    font-weight: 600;
+    margin-top: 20%;
+    margin-bottom: 20%
+}
+
+#erweima {
+    width: 50%;
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+
+#kefu {
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+#yejiao {
+    background: #6c4f4f;
+    width: 100%;
+    color: white;
+}
+
+#beian {
+    color: rgba(255, 255, 255, 0.56);
+    text-align: center;
+    display: inline-block;
+    background: #463636;
 }
